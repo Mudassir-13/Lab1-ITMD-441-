@@ -1,3 +1,7 @@
+ body {
+  font-family: sans-serif;
+}
+
 header {
   text-align: center;
 }
@@ -5,4 +9,33 @@ header {
 footer {
   text-align: center;
   font-size: 0.8em;
+}
+
+#about {
+  max-width: 1300px; 
+  margin: 0 auto;    
+}
+
+#education {
+  max-width: 1300px; 
+  margin: 0 auto;    
+  padding: 0 20px;
+}
+
+#work {
+  max-width: 1300px; 
+  margin: 0 auto;    
+  padding: 0 20px;
+}
+
+#skills {
+  max-width: 1300px; 
+  margin: 0 auto;    
+  padding: 0 20px;
+}
+
+#projects, article {
+  max-width: 1300px; 
+  margin: 0 auto;    
+  padding: 0 20px;
 }
