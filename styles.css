@@ -60,7 +60,6 @@ li {
   height: 150px;
   border-radius: 50%; 
   object-fit: cover;
-  position: absolute;
   right: 0;
   top: 0%;
   margin: 10px;
@@ -75,9 +74,10 @@ li {
     text-align: center;      
     gap: 0.5rem;            
   }
+}
 
-  .about-image {
-    padding: 280px;
-    position: absolute;
+@media (max-width: 500px) {
+  body {
+    text-align: center;
   }
 }
